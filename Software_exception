@@ -1,1 +1,9 @@
+package backend_design;
 
+@SuppressWarnings("serial")
+public class Software_exception extends Exception{
+String args;
+Software_exception(String args){
+	this.args=args;
+}
+}
