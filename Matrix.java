@@ -138,7 +138,31 @@ public Matrix MultiplyByConstant(double n) {
 	Matrix answer = new Matrix(result);
 	return answer;
 }
-
+public Matrix MultiplyByMatrix(Matrix m) throws Software_exception{
+	int column1= this.matrix[0].length;
+	int row1 =  this.matrix.length;
+	int column2 = m.matrix[0].length;
+	int row2= m.matrix.length;
+	if(column1==row2) {
+		// can be multiplied
+		double array[][] = new double[row1][column2];
+		for(int i=0;i<row1;i++) {
+			for(int j=0;j<column2;j++) {
+				for(int k=0;k<column1;k++) {
+					array[i][j]+=this.matrix[i][k]*m.matrix[k][j];
+				}
+			}
+				
+		}
+		Matrix result= new Matrix(array);
+		return result;
+	}
+	else {
+		throw new Software_exception("cant multiply the matrices as the columns of 1st dont match the rows of 2nd")
+	}
+			
+	
+}
 
 @SuppressWarnings("unused")
 private boolean isSymmetric() {
@@ -200,3 +224,4 @@ public Matrix getInverse() throws Software_exception {
 
 
 }
+ 
