@@ -54,10 +54,10 @@ private double[][] submatrix(int n, int i, int j, double[][] matrix) {
 					b++;
 			}
 		}
-			a++;
+		b=0;	
+		a++;
 	}
-		
-}
+   }
 	return d;
 }
 /**
