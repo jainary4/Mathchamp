@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="matrix_inverse">Matrix Inverse</string>
+    <string name="matrix_determinant">Matrix Determinant</string>
+    <string name="matrix_addition">Matrix Addition\n</string>
+    <string name="operations">Options\n</string>
+    <string name="matrix_multiplication">Matrix Multiplication</string>
+    <string name="calculate">Calculate</string>
+    <string name="enter_the_number_of_columns">Enter Number of Columns</string>
+    <string name="generate_matrix">Generate Matrix</string>
+    <string name="enter_the_number_of_rows">Enter the number of rows</string>
+    <string name="enter_rows_for_matrix_2">Enter Rows for Matrix 2</string>
+    <string name="enter_columns_for_matrix_2">Enter Columns for Matrix 2</string>
+    <string name="enter_columns_for_matrix_1">Enter Columns for Matrix 1</string>
+    <string name="enter_rows_for_matrix_1">Enter Rows for Matrix 1</string>
+    <string name="matrix_subtraction">Matrix Subtraction</string>
+</resources>
