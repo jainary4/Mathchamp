@@ -1,0 +1,89 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/operations"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#546E7A"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonMatrixMultiplication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/matrix_multiplication"
+        android:onClick="onMatrixMultiplyClick"
+        android:background="#546E7A"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        />
+
+    <Button
+        android:id="@+id/buttonMatrixAddition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/matrix_addition"
+        android:onClick="onMatrixAdditionClick"
+        android:background="#546E7A"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        />
+
+    <Button
+        android:id="@+id/buttonMatrixInverse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/matrix_inverse"
+        android:onClick="onMatrixInverseClick"
+        android:background="#546E7A"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        />
+
+    <Button
+        android:id="@+id/buttonMatrixDeterminant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/matrix_determinant"
+        android:onClick="onMatrixDeterminantClick"
+        android:background="#546E7A"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        />
+    <Button
+        android:id="@+id/buttonMatrixSubtraction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/matrix_subtraction"
+        android:onClick="onMatrixSubtractClick"
+        android:background="#546E7A"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        />
+
+
+
+</LinearLayout>
